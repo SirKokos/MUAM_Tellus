@@ -2,12 +2,12 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
- 
+    <meta name="viewport" content="width=device-width">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chivo&family=Comfortaa:wght@300;400;500;700&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css\style.css"/>
+    <link rel="stylesheet" href="style\style.css"/>
 
     <title>Tellus</title>
 </head>
@@ -43,44 +43,84 @@
                     </div>
                 </div>
             </header>
-
-            <main class = "main">
-                <div class = "page__main-block main__block" >
-                    <div class="main-block__container _container">
-                      <h1 class="main-block__title">
-                           Turn your savings into passive income.
-                      </h1>
-                        <div class = "main-block__text">
-                            Earn up to 22x more interest on your savings today
+            <main class = "main ">
+                    <div class = "page__main-block  _container" >
+                        <div class="main-block__container">
+                            <h1 class="main-block__title">Turn your savings into passive income.</h1>
+                            <div class = "main-block__text">Earn up to 22x more interest on your savings today</div>
+                            <form class = "main-form">
+                                <div class = "main-form__label">
+                                    <label for = "phone" class = "form-text">Enter your mobile number:</label>
+                                </div>
+                                <div class = "form-item">
+                                    <div class = "form-item__input">
+                                        <input type="tel" id="phone" name="phone" maxlength="11" pattern="2-[0-9]{3}-[0-9]{3}" required>
+                                    </div>
+                                    <div class = "main-block__button">
+                                        <button type="submit" class="form__button">Отправить</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                        <form class = "main-form">
-                            <div class = "main-form__label">
-                                <label for = "phone" class = "form-text">
-                                    Enter your mobile number:
-                                </label>
-                            </div>
-                            <div class = "form-item">
-                                <div class = "form-item__input">
-                                    <input type="tel" id="phone" name="phone" maxlength="11" pattern="2-[0-9]{3}-[0-9]{3}" required>
-                                </div>
-                                <div class = "main-block__button">
-                                    <button type="submit" class="form__button">Отправить</button>
-                                </div>
-                            </div>
-
-                        </form>
+                        <div class = "main-block__img ">
+                            <img src="img\IMAGE.png">
+                        </div>
                     </div>
-                    <div class = "main-block__img _ibg">
-                        <img src="img\IMAGE.png">
+                    <div class = "bottom__brend">
+                        <div class="bottom__brend-container _container">
+                            <div class = "bottom__brend-item">
+                                <a href = "" class = "brend-item">
+                                    <img src="img\TechCrunch.svg">
+                                </a>
+                            </div>
+                            <div class = "bottom__brend-item">
+                                <a href = "" class = "brend-item">
+                                    <img src="img\Vector.svg">
+                                </a>
+                            </div>
+                            <div class = "bottom__brend-item">
+                                <a href = "" class = "brend-item">
+                                    <img src="img\FinanceBuzz.svg">
+                                </a>
+                            </div>
+                            <div class = "bottom__brend-item">
+                                <a href = "" class = "brend-item">
+                                    <img src="img\PennyHoarder.svg">
+                                </a>
+                            </div>
+                            <div class = "bottom__brend-item">
+                                <a href = "" class = "brend-item">
+                                    <img src="img\MoneyCrashers.svg">
+                                </a>
+                            </div>
+                            <div class = "bottom__brend-item">
+                                <a href = "" class = "brend-item">
+                                    <img src="img\ProductHunt.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                <div class = "page__main-block  _container" >
+                    <div class="main-block__container">
+                        <div class="main-block__title-second">Your savings,powered by real estate.</div>
+                        <div class = "main-block__text--second _border">When you deposit your money into a Tellus account,
+                            we supercharge your returns with interest income generated by residential real estate lending.
+                            <hr>
+                            Your earnings are paid out daily and your money can be pulled out at any time.</div>
+                            <div class="main-block__title-second">Earn 3.95-5.50% APY</div>
+                            <div class = "main-block__text--second _border">That's up to 22x more than the average savings account*.</div>
+                            <div class="main-block__title-second">Paid out daily</div>
+                            <div class = "main-block__text--second _border">No fees, withdraw anytime. You’re always in control.</div>
+
+                    </div>
+
+
+
+                    <div class = "main-block__img ">
+                        <img src="img\phone_people.png">
                     </div>
                 </div>
             </main>
-
-
-
-
-
-
 
 
             <footer class = "footer">
