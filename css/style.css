@@ -175,7 +175,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     padding: 183px 0px 0px 0px;
 
 }
-@media (max-width: 380px) {
+@media (max-width: 426px) {
     .main-block__container {
         padding: 120px 0px 0px 0px;
 
@@ -263,7 +263,7 @@ input{
     letter-spacing: 16.86px;
     color: #0E0F0F;
 }
-@media (max-width: 380px) {
+@media (max-width: 426px) {
     input{
         padding: 15px 20px 22px 20px;
         width: 185px;
@@ -283,7 +283,7 @@ input{
     letter-spacing: 0.36px;
     color: #FFFFFF;
 }
-@media (max-width: 380px) {
+@media (max-width: 426px) {
     .form__button {
         padding: 9px 24px 9px 24px;
         border-radius: 100px;
@@ -311,7 +311,7 @@ input{
     letter-spacing: 0.48px;
     color: #0E0F0F;
 }
-@media (max-width: 380px) {
+@media (max-width:426px) {
     .main-block__text{
         max-width: 300px;
         padding: 42px 0px 150px 0px;
@@ -338,7 +338,7 @@ input{
     justify-content: space-between;
 }
 
-@media(max-width: 380px){
+@media(max-width: 426px){
     .bottom__brend-container {
         margin: 100px 10px 0px 10px ;
         flex-wrap: wrap;
@@ -347,7 +347,7 @@ input{
 .bottom__brend-item {
     padding: 63px 0px 73px 0px;
 }
-@media(max-width: 380px){
+@media(max-width: 426px){
     .bottom__brend-item {
         padding: 43px 0px 15px 0px;
     }
@@ -373,7 +373,7 @@ input{
     letter-spacing: 2.56px;
     color: #0E0F0F;
 }
-@media (max-width: 380px) {
+@media (max-width:426px) {
     .main-block__title-second{
         font-size: 25px;
     }
@@ -385,7 +385,7 @@ input{
     line-height: 30px;
     color: #0E0F0F;
 }
-@media(max-width: 380px){
+@media(max-width: 426px){
     .main-block__text--second {
         font-size: 16px;
         padding: 1px 0px 15px 0px;
@@ -398,7 +398,7 @@ input{
 .main-block__button{
 margin: 0px 0px 20px 0px;
 }
-@media (max-width: 380px) {
+@media (max-width: 426px) {
     .main-block_button{
         padding: 0px 0px 20px 157px;
     }
@@ -460,6 +460,5 @@ background: #D2D9E1;
 .img-star{}
 /*-------------------------------*/
 .footer {
-    
 }
 
