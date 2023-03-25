@@ -690,7 +690,7 @@ input{
         border-radius: 100px;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 413px) {
     .form-img__button {
         width: 44px;
         height: 44px;
