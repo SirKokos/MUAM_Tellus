@@ -108,6 +108,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     letter-spacing: 0.32px;
     max-width: 360px;
 }
+
+
 @media (max-width: 992px) {
     .header__title {
         margin: 0px 0px 0px 50px;
@@ -189,7 +191,20 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     line-height: 80px;
     letter-spacing: 3.2px;
     color: #0E0F0F;
+    /*=========animaci=======================*/
+transform: translate(0px ,120%);
+opacity: 0;
+transition: all 0.8s ease 0s;
 }
+
+
+.main-block__title._active{
+    transform: translate(0px ,0px);
+    opacity: 1;
+
+}
+/*=========================================*/
+
 @media (max-width: 1025px) {
     .main-block__title {
         max-width: 600px;
@@ -240,7 +255,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     letter-spacing: 1.28px;
     text-transform: uppercase;
     color: #0E0F0F;
+
 }
+
+
+
+
 .form-item {
     border: 1px solid rgba(14, 15, 15, 0.24);
     border-radius: 8px;
@@ -285,6 +305,12 @@ input{
     /* identical to box height, or 210% */
     letter-spacing: 0.36px;
     color: #FFFFFF;
+    transition: all 1s ease-out;
+}
+.form__button:hover{
+
+    background: rgba(96, 105, 105, 0.46);
+
 }
 @media (max-width: 426px) {
     .form__button {
@@ -313,7 +339,20 @@ input{
     /* identical to box height, or 153% */
     letter-spacing: 0.48px;
     color: #0E0F0F;
+/*=========animaci=======================*/
+    transform: translate(0px ,120%);
+    opacity: 0;
+    transition: all 1s ease 0s;
 }
+
+
+.main-block__text._active{
+    transform: translate(0px ,0px);
+    opacity: 1;
+
+}
+/*=========================================*/
+
 @media (max-width:426px) {
     .main-block__text{
         max-width: 300px;
@@ -366,7 +405,22 @@ input{
     /* or 123% */
     letter-spacing: 2.56px;
     color: #0E0F0F;
+/*=========animaci=======================*/
+transform: translate(0px ,120%);
+opacity: 0;
+transition: all 1s ease 0s;
 }
+
+
+.main-block__title-second._active{
+    transform: translate(0px ,0px);
+    opacity: 1;
+
+}
+/*=========================================*/
+
+
+
 @media (max-width:426px) {
     .main-block__title-second{
         font-size: 25px;
@@ -378,7 +432,21 @@ input{
     font-size: 18px;
     line-height: 30px;
     color: #0E0F0F;
+/*=========animaci=======================*/
+transform: translate(0px ,120%);
+opacity: 0;
+transition: all 0.9s ease 0s;
 }
+
+
+.main-block__text--second._active{
+    transform: translate(0px ,0px);
+    opacity: 1;
+
+}
+/*=========================================*/
+
+
 @media(max-width: 426px){
     .main-block__text--second {
         font-size: 16px;
@@ -403,6 +471,7 @@ input{
     justify-content: space-between;
 }
 
+
 .main-block_button-next{
 }
 
@@ -414,7 +483,9 @@ input{
     line-height: 12px;
     text-align: center;
     text-transform: uppercase;
+
 }
+
 .page__main-color{
     background: #D2D9E1;
 }
@@ -476,15 +547,25 @@ input{
     padding: 34px 32px 33px 32px;
 }
 
-.coomment__text {
+.comment__text {
     min-height: 240px;
     max-width: 248px;
     margin: 34px 0px 0px 0px;
     font-size: 24px;
     line-height: 34px;
     color: #0E0F0F;
+/*=========animaci=======================*/
+transform: translate(0px ,120%);
+opacity: 0;
+transition: all 0.9s ease 0s;
 }
 
+.comment__text._active{
+    transform: translate(0px ,0px);
+    opacity: 1;
+
+}
+/*=========================================*/
 .comment__name {
     margin: 10px 0px 0px 0px;
     font-size: 15px;
@@ -492,7 +573,20 @@ input{
     /* identical to box height, or 133% */
     letter-spacing: 0.8px;
     color: #0E0F0F;
+/*=========animaci=======================*/
+transform: translate(0px ,200%);
+opacity: 0;
+transition: all 1.2s ease 0s;
 }
+
+.comment__name._active{
+    transform: translate(0px ,0px);
+    opacity: 1;
+
+}
+/*=========================================*/
+
+
 
 .name__client {
 
@@ -534,8 +628,8 @@ input{
     background-image: url("../img/bg.png") ;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% auto;
     margin: 60px 0px 0px 0px ;
+    background-size: 100% auto;
 }
 @media (max-width: 1024px) {
     .page__main-img {
