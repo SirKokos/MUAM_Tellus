@@ -1265,6 +1265,7 @@ transition: all 1.2s ease 0s;
     .footer__block {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         margin: 100px 0px 90px 0px;
