@@ -34,6 +34,11 @@ if (animItems.length > 0) {
     }, 300)
 }
 document.addEventListener("DOMContentLoaded", hiddenCloseclick());
+document.addEventListener("DOMContentLoaded", hiddenCloseclick_1());
+document.addEventListener("DOMContentLoaded", hiddenCloseclick_2());
+document.addEventListener("DOMContentLoaded", hiddenCloseclick_3());
+document.addEventListener("DOMContentLoaded", hiddenCloseclick_4());
+
 document.getElementById('click-to-hide').addEventListener("click", hiddenCloseclick);
 document.getElementById('click-to-hide_1').addEventListener("click", hiddenCloseclick_1);
 document.getElementById('click-to-hide_2').addEventListener("click", hiddenCloseclick_2);
