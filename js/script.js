@@ -33,3 +33,14 @@ if (animItems.length > 0) {
         animOnScroll()
     }, 300)
 }
+document.addEventListener("DOMContentLoaded", hiddenCloseclick());
+document.getElementById('click-to-hide').addEventListener("click", hiddenCloseclick);
+function hiddenCloseclick() {
+    let x = document.getElementById('hidden-element');
+    if (x.style.display == "none"){
+        x.style.display = "flex";
+        x.style.justifyContent = "centre"
+    } else {
+        x.style.display = "none"}
+};
+
