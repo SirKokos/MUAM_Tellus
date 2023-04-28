@@ -538,14 +538,19 @@ transition: all 0.9s ease 0s;
 
 @media (max-width: 320px){
     .main-block_button {
-        padding: 0px 0px 20px 100px;
+        padding: 0px 0px 20px 60px;
     }
 }
     @media (max-width: 315px) {
         .main-block_button {
-            padding: 0px 0px 20px 65px;
+            padding: 0px 0px 20px 20px;
         }
     }
+@media (max-width: 375px) {
+    .main-block_button {
+        padding: 0px 0px 20px 100px;
+    }
+}
 .main-block_button-container{
     border: 1px solid rgba(14, 15, 15, 0.24);
     border-radius: 100px;
@@ -1315,20 +1320,17 @@ transition: all 1.2s ease 0s;
     color: #B3B3B3;
 
 }
-.footer__hide_button{
-    margin: 100px auto 0px auto;
-    display: flex;
+.button__footer{
+    background: rgba(255, 255, 255, 0);
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 30px;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    color: #D2D9E1;
+
+
 }
-@media (max-width: 2000px) {
-    .footer__hide_button{
-        margin: 100px auto 0px auto;
-        opacity: 0;
-    }
-}
-@media (max-width: 425px) {
-    .footer__hide_button{
-        margin: 100px auto 0px auto;
-        opacity: 1;
-        justify-content: center;
-    }
+.hide{
+
 }
