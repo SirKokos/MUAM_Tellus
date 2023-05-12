@@ -83,3 +83,92 @@ function hiddenCloseclick_4(){
         x.style.display = "none"}
 
 };
+
+document.addEventListener("DOMContentLoaded", hiddenCloseclick_lorem());
+document.getElementById('clik_lorem').addEventListener("click", hiddenCloseclick_lorem);
+
+
+function hiddenCloseclick_lorem(){
+    let x = document.getElementById('lorem');
+    if (x.style.display == "none"){
+        x.style.display = "block";
+    } else {
+        x.style.display = "none"}
+
+};
+
+document.addEventListener("DOMContentLoaded", hiddenCloseclick_lorem_1());
+document.getElementById('clik_lorem_1').addEventListener("click", hiddenCloseclick_lorem_1);
+
+
+function hiddenCloseclick_lorem_1(){
+    let x = document.getElementById('lorem_1');
+    if (x.style.display == "none"){
+        x.style.display = "block";
+    } else {
+        x.style.display = "none"}
+
+};
+document.addEventListener("DOMContentLoaded", hiddenCloseclick_lorem_2());
+document.getElementById('clik_lorem_2').addEventListener("click", hiddenCloseclick_lorem_2);
+
+
+function hiddenCloseclick_lorem_2(){
+    let x = document.getElementById('lorem_2');
+    if (x.style.display == "none"){
+        x.style.display = "block";
+    } else {
+        x.style.display = "none"}
+
+};
+
+document.addEventListener("DOMContentLoaded", hiddenCloseclick_lorem_3());
+document.getElementById('clik_lorem_3').addEventListener("click", hiddenCloseclick_lorem_3);
+
+
+function hiddenCloseclick_lorem_3(){
+    let x = document.getElementById('lorem_3');
+    if (x.style.display == "none"){
+        x.style.display = "block";
+    } else {
+        x.style.display = "none"}
+
+};
+document.addEventListener("DOMContentLoaded", hiddenCloseclick_lorem_4());
+document.getElementById('clik_lorem_4').addEventListener("click", hiddenCloseclick_lorem_4);
+
+
+function hiddenCloseclick_lorem_4(){
+    let x = document.getElementById('lorem_4');
+    if (x.style.display == "none"){
+        x.style.display = "block";
+    } else {
+        x.style.display = "none"}
+
+};
+
+document.addEventListener("DOMContentLoaded", hiddenCloseclick_lorem_5());
+document.getElementById('clik_lorem_5').addEventListener("click", hiddenCloseclick_lorem_5);
+
+
+function hiddenCloseclick_lorem_5(){
+    let x = document.getElementById('lorem_5');
+    if (x.style.display == "none"){
+        x.style.display = "block";
+    } else {
+        x.style.display = "none"}
+
+};
+
+document.addEventListener("DOMContentLoaded", hiddenCloseclick_lorem_6());
+document.getElementById('clik_lorem_6').addEventListener("click", hiddenCloseclick_lorem_6);
+
+
+function hiddenCloseclick_lorem_6(){
+    let x = document.getElementById('lorem_6');
+    if (x.style.display == "none"){
+        x.style.display = "block";
+    } else {
+        x.style.display = "none"}
+
+};
